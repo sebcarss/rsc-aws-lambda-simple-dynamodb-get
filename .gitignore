@@ -105,3 +105,6 @@ dist
 
 # Lambda function zip file
 function.zip
+
+# Lambda response file
+response.json
