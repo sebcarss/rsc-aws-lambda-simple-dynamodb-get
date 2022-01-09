@@ -17,4 +17,16 @@ npm 8.3.0
 
 ## Testing
 
+# Deploying to AWS
 
+Run these commands from the root directory to deploy the code to AWS. You will need your `~/.aws/credentials` file set up with the default account you want to update. 
+
+Zip up the index.js file
+```bash
+zip function.zip index.js
+```
+
+To deploy this code to AWS run the following commands from the root directory
+```bash
+aws lambda update-function-code --function-name <function-name> --zip-file fileb://function.zip
+```
