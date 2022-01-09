@@ -1,0 +1,22 @@
+{
+  "name": "rsc-aws-lambda-simple-dynamodb-get",
+  "version": "0.1.0",
+  "description": "A simple lambda function that checks if a value is stored in DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebcarss/rsc-aws-lambda-simple-dynamodb-get.git"
+  },
+  "keywords": [
+    "lambda"
+  ],
+  "author": "Seb Carss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebcarss/rsc-aws-lambda-simple-dynamodb-get/issues"
+  },
+  "homepage": "https://github.com/sebcarss/rsc-aws-lambda-simple-dynamodb-get#readme"
+}
