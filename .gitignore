@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Lambda function zip file
+function.zip
